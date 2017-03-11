@@ -1,4 +1,7 @@
 class WelcomeController < ApplicationController
+
   def index
-  end
+    @admins = Admin.all
+  end 
+  
 end

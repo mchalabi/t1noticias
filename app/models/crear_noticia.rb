@@ -1,0 +1,2 @@
+class CrearNoticia < ApplicationRecord
+end
