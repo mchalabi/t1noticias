@@ -20,9 +20,8 @@
         <td><%= admin.bajada %></td>
         <td><%= admin.cuerpo %></td>
         <td><%= admin.created_at%></td>
-        <td><%= link_to 'Show', admin %></td>
-        <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
-        <td><%= link_to 'Destroy', admin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Editar', edit_admin_path(admin) %></td>
+        <td><%= link_to 'Eliminar', admin, method: :delete, data: { confirm: 'Al apretar ACEPTAR se eliminará la noticia permanentemente' } %></td>
       </tr>
     <% end %>
   </tbody>
