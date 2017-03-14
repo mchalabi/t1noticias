@@ -21,7 +21,7 @@
       <tr>
         <td><%= admin.titular %></td>
         <td><%= admin.bajada %></td>
-        <td><%= admin.cuerpo %></td>
+        <td><%= admin.cuerpo.truncate(1000, separator: ' ')%></td>
         <td><%= admin.created_at%></td>
         <td><%= link_to 'Expandir Noticia', admin %></td>
       </tr>
